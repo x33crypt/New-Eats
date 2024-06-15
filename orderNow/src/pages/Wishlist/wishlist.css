@@ -1,0 +1,40 @@
+.wishlist {
+  padding-top: 70px;
+}
+
+.wishlistHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.wishlistHead1 {
+  font-family: poppins;
+  font-size: 55px;
+  font-weight: 600;
+}
+
+.wishlistHeadSub {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.wishlistHeadSub1 {
+  font-size: 15px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.wishlistHeadSub2 {
+  font-size: 15px;
+}
+
+.wishlistHeadSub i {
+  font-size: 12px;
+  color: rgb(131, 131, 131);
+}

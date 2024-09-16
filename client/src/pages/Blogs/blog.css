@@ -1,0 +1,260 @@
+.blogHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+.blogHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.blogHeadSub {
+  display: flex;
+  align-items: center;
+  width: 85px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.blogHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.blogHeadSub2 {
+  font-size: 14.5px;
+}
+
+.blogHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.blogMain {
+  display: grid;
+  grid-template-columns: 71% 26%;
+  padding-inline: 2%;
+  margin-block: 50px;
+  justify-content: space-between;
+}
+
+.blogMainL {
+  margin-top: 20px;
+}
+
+.blogMainL1 {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.blogMainL1Img img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.blogMainL1Cont {
+  padding-inline: 4%;
+  margin-top: 30px;
+}
+
+.blogMainL1Cont1 {
+  font-family: poppins;
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+}
+
+.blogMainL1Cont1 span {
+  font-family: poppins;
+  color: black;
+  cursor: pointer;
+}
+
+.blogMainL1Cont2 {
+  margin-top: 5px;
+  font-family: poppins;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.blogMainL1Cont3 {
+  margin-top: 10px;
+  font-family: poppins;
+  color: rgb(128, 128, 128);
+  font-size: 14px;
+  width: 780px;
+}
+
+.blogMainL1Cont4 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.blogMainL1Cont4 button {
+  padding: 15px 35px;
+  font-family: poppins;
+  font-size: 13.5px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 194, 34);
+}
+
+.blogMainL1Cont4 button:hover {
+  color: white;
+  background-color: rgb(226, 165, 10);
+}
+
+.blogMainR {
+  margin-top: 20px;
+}
+
+.blogMainRHead {
+  padding-bottom: 10px;
+  border-bottom-width: 1.5px;
+  border-bottom-style: dashed;
+  border-color: rgb(207, 207, 207);
+}
+
+.blogMainRHead p {
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.blogMainRCont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.blogMainRCont1 {
+  display: flex;
+}
+
+.blogMainRCont1 img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.blogMainRCont1Cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.blogMainRCont1Cont1 {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.blogMainRCont1Cont2 {
+  margin-top: 10px;
+  font-family: poppins;
+  font-size: 13.5px;
+  color: rgb(153, 153, 153);
+}
+
+.blogMainRButtom {
+  margin-top: 50px;
+}
+
+.blogMainButtomHead {
+  padding-bottom: 10px;
+  border-bottom-width: 1.5px;
+  border-bottom-style: dashed;
+  border-color: rgb(207, 207, 207);
+}
+
+.blogMainButtomHead p {
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.blogMainRButtomCont {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  row-gap: 10px;
+  column-gap: 10px;
+  width: 90%;
+}
+
+.blogMainRButtomCont p {
+  font-family: poppins;
+  font-size: 14px;
+  border: 1px;
+  border-style: solid;
+  padding: 3px 20px;
+  border-radius: 15px;
+  color: rgb(109, 108, 108);
+  border-color: rgb(207, 207, 207);
+  cursor: pointer;
+}
+
+.blogMainRButtomCont p:hover {
+  color: rgb(255, 194, 34);
+  border-color: rgb(255, 194, 34);
+}
+
+.searchResultRightPoster {
+  margin-top: 35px;
+  padding-inline: 3%;
+  padding-block: 10px;
+  border-radius: 12px;
+  background-color: rgb(255, 194, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultRightPoster1 {
+  font-family: Norican, sans-serif;
+  margin-top: 15px;
+  font-size: 38px;
+  font-weight: 500;
+  color: white;
+}
+
+.searchResultRightPoster2 {
+  font-family: poppins;
+  color: rgb(0, 161, 73);
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.searchResultRightPoster3 {
+  font-family: poppins;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.searchResultRightPoster4 {
+  font-family: poppins;
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.searchResultRightPoster5 img {
+  width: 270px;
+}

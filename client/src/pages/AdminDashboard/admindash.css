@@ -1,0 +1,580 @@
+.adminDash {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 50px;
+  padding-inline: 2%;
+  padding-block: 30px;
+}
+
+.adminDashMid {
+}
+
+.adminDashMid1 {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.adminDashMid1 span {
+  font-family: poppins;
+  color: rgb(255, 194, 34);
+}
+
+.adminDashMid2 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.adminDashMid3 {
+  margin-top: 20px;
+}
+
+.adminDashMid3Head {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(162, 23, 28);
+}
+
+.adminDashMid3HeadL1 {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.adminDashMid3HeadL2 {
+  font-family: poppins;
+  font-size: 13px;
+  color: white;
+}
+
+.adminDashMid3HeadR {
+  display: flex;
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.adminDashMid3HeadR1 {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 10px;
+  background-color: rgb(251, 247, 232);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.adminDashMid3HeadR2 {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 10px;
+  background-color: rgb(255, 194, 34);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.adminDashMid3EarningTop {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.adminDashMid3EarningTop1 {
+  display: flex;
+}
+
+.adminDashMid3EarningTop1Img {
+  margin-right: 10px;
+}
+
+.adminDashMid3EarningTop1Img i {
+  color: rgb(255, 194, 34);
+  font-size: 25px;
+  padding: 13px;
+  background-color: rgb(251, 247, 232);
+  border-radius: 7px;
+}
+
+.adminDashMid3EarningTop1Txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adminDashMid3EarningTop1Txt1 {
+  font-size: 12px;
+  font-family: poppins;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+}
+
+.adminDashMid3EarningTop1Txt2 {
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.adminDashMid3EarningTopInsert {
+  display: grid;
+  padding-inline: 10px;
+  grid-template-columns: 150px 170px 170px 170px 170px;
+  margin-top: 20px;
+  height: 35px;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+}
+
+.adminDashMid3EarningTopInsert div {
+  font-size: 13.5px;
+  font-family: poppins;
+  font-weight: 700;
+  color: black;
+}
+
+.adminDashMid3EarningTopValue1 {
+  display: grid;
+  padding-inline: 10px;
+  grid-template-columns: 150px 170px 170px 170px 170px;
+  margin-top: 10px;
+  height: 25px;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.adminDashMid3EarningTopValue div {
+  font-family: poppins;
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
+
+.adminDashMid4 {
+  margin-top: 50px;
+}
+
+.adminDashMid4Head {
+  padding-inline: 10px;
+  padding-block: 15px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  justify-content: space-between;
+  background-color: rgb(162, 23, 28);
+}
+
+.adminDashMid4HeadL1 {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+
+.adminDashMid4HeadL2 {
+  font-family: poppins;
+  font-size: 13px;
+  color: white;
+}
+
+.adminDashMid4HeadR select {
+  background-color: rgb(251, 247, 232);
+  border: none;
+  outline: none;
+  font-family: poppins;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.adminDashMid4HeadR button {
+  font-family: poppins;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 3px 15px;
+  background-color: rgb(255, 194, 34);
+  border: none;
+  border-radius: 3px;
+}
+
+.adminDashMid4Column {
+  margin-top: 10px;
+  padding-inline: 10px;
+  display: grid;
+  grid-template-columns: 80px 105px 100px 110px 100px 95px 105px 90px 50px;
+  font-size: 14.5px;
+  font-family: poppins;
+  font-weight: 600;
+  height: 35px;
+  align-items: center;
+  background-color: rgb(237, 237, 237);
+}
+
+.adminDashMid4Value1 {
+  display: grid;
+  padding-inline: 10px;
+  grid-template-columns: 80px 105px 100px 110px 100px 95px 105px 90px 50px;
+  margin-top: 10px;
+  height: 25px;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.adminDashMid4Value1 p {
+  font-family: poppins;
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
+
+.adminDashMid4Column8 {
+  height: 25px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.adminDashMid4Column8 i {
+  color: rgb(255, 194, 34);
+  cursor: pointer;
+}
+
+.adminDashRight {
+  padding-block: 10px;
+}
+
+.adminDashRight1Head p {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.adminDashRight1Txt {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.adminDashRight1Txt p {
+  padding: 4px 27px;
+  color: rgb(128, 128, 128);
+  border-radius: 10px;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 500;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.adminDashRight1Txt p:hover {
+  color: rgb(255, 194, 34);
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1Form {
+  margin-top: 20px;
+}
+
+.adminDashRight1FormTop1 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop1 input {
+  margin-top: 2px;
+  height: 35px;
+  padding-inline: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop1 input::placeholder {
+  font-size: 13px;
+}
+
+.adminDashRight1FormTop1 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1FormTop2 {
+  margin-top: 10px;
+}
+
+.adminDashRight1FormTop2 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop2 input {
+  margin-top: 2px;
+  height: 35px;
+  padding-inline: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop2 input::placeholder {
+  font-size: 13px;
+}
+
+.adminDashRight1FormTop2 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1FormTop5 {
+  margin-top: 10px;
+}
+
+.adminDashRight1FormTop5 input {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  height: 30px;
+  padding-inline: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+  padding-top: 7px;
+}
+
+.adminDashRight1FormTop5 input::placeholder {
+  top: 10px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminDashRight1FormTop5 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop3 {
+  margin-top: 10px;
+}
+
+.adminDashRight1FormTop3 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop3 textarea {
+  width: 90%;
+  height: 100px;
+  padding-inline: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop3 textarea::placeholder {
+  font-size: 13px;
+}
+
+.adminDashRight1FormTop2 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1FormTop4 {
+  width: 97%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adminDashRight1FormTop4L {
+}
+
+.adminDashRight1FormTop4L p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop4L input {
+  margin-top: 2px;
+  height: 35px;
+  padding-inline: 10px;
+  width: 110px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop4L input::placeholder {
+  font-size: 13px;
+}
+
+.adminDashRight1FormTop4L input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1FormTop4R p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop4R select {
+  margin-top: 2px;
+  height: 38px;
+  padding-inline: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop4R select:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight1FormTop6 {
+  margin-top: 20px;
+}
+
+.adminDashRight1FormTop6 button {
+  width: 130px;
+  padding-block: 9px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: rgb(255, 194, 34);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.adminDashRight1FormTop6 button:hover {
+  background-color: rgb(226, 165, 10);
+}
+
+.adminDashRight2 {
+  margin-top: 30px;
+}
+
+.adminDashRight2Form {
+  margin-top: 20px;
+}
+
+.adminDashRight2Form1 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight2Form1 input {
+  margin-top: 2px;
+  height: 35px;
+  padding-inline: 10px;
+  width: 90%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight1FormTop1 input::placeholder {
+  font-size: 13px;
+}
+
+.adminDashRight1FormTop1 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.adminDashRight2Form2 {
+  margin-top: 10px;
+}
+
+.adminDashRight2Form2 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight2Form2 textarea {
+  width: 90%;
+  height: 150px;
+  padding-inline: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}
+
+.adminDashRight2Form3 {
+  margin-top: 10px;
+}
+
+.adminDashRight2Form3 p {
+  color: rgb(127, 126, 126);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.adminDashRight2Form3 input {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  height: 30px;
+  padding-inline: 10px;
+  padding-top: 7px;
+  width: 90%;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 215, 215);
+  outline: none;
+  font-size: 14px;
+  font-family: poppins;
+}

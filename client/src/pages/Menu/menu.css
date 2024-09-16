@@ -1,0 +1,256 @@
+.menu {
+}
+
+.menuHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.menuHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.menuHeadSub {
+  display: flex;
+  align-items: center;
+  width: 95px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.menuHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.menuHeadSub2 {
+  font-size: 14.5px;
+}
+
+.menuHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.menuMainHead {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuMainHead1 {
+  font-family: poppins;
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(30, 29, 35);
+}
+
+.menuMainHead2 {
+  margin-top: 40px;
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.menuMainHead2 p {
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 600;
+  padding: 20px 35px;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(215, 213, 213);
+  cursor: pointer;
+}
+
+.menuMainHead2 p:hover {
+  background-color: rgb(255, 194, 34);
+}
+
+.menuMain {
+  padding-block: 40px;
+  padding-inline: 2%;
+}
+
+.menuMainContent {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  justify-content: space-between;
+  row-gap: 25px;
+}
+
+.menuMain2 {
+}
+
+.menuMainExplore {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 50px;
+}
+
+.menuMainExplore1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuMainExplore1 img {
+  width: 100%;
+  height: 635px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.menuMainExplore1Back {
+  background-color: rgba(0, 0, 0, 0.443);
+  position: absolute;
+  height: 635px;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.menuMainExploreTxt {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuMainExploreTxt1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: poppins;
+  color: white;
+}
+
+.menuMainExploreTxt2 {
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+  font-family: poppins;
+}
+
+.menuMainExploreTxt3 {
+  margin-top: 30px;
+  padding: 20px 45px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: rgb(255, 194, 34);
+  cursor: pointer;
+  transition: background-color 0.8 ease, color 0.8 ease;
+  cursor: pointer;
+}
+
+.menuMainExploreTxt3:hover {
+  color: white;
+  background-color: rgb(226, 165, 10);
+}
+
+.menuMainExplore2 {
+  background-color: rgb(247, 244, 239);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuMainExplore2-1 {
+  width: 320px;
+}
+
+.menuMainExplore2-1Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuMainExplore2-1Head1 {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.menuMainExplore2-1Head2 {
+  font-size: 19px;
+  font-weight: 600;
+  font-family: poppins;
+  color: rgb(255, 194, 34);
+}
+
+.menuMainExplore2-1Line {
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: rgb(186, 186, 186);
+}
+
+.menuMainExplore2-1Txt {
+  margin-top: 10px;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+  font-family: poppins;
+}
+
+.menuMainExplore2-2 {
+  width: 320px;
+  margin-top: 35px;
+}
+
+.menuMainExploreButtom {
+  padding-inline: 25px;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuMainExploreButtom1 {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color: rgb(224, 221, 221);
+}
+
+.menuMainExploreButtom1:hover {
+  border-color: rgb(255, 194, 34);
+}
+
+.menuMainExploreButtom1Icon i {
+  font-size: 55px;
+  color: rgb(255, 194, 34);
+}
+
+.menuMainExploreButtom1Txt {
+  margin-left: 25px;
+}
+
+.menuMainExploreButtom1Txt1 {
+  font-size: 16px;
+  font-family: poppins;
+  font-weight: 700;
+}
+
+.menuMainExploreButtom1Txt2 {
+  margin-top: 5px;
+  font-size: 14px;
+  width: 230px;
+  font-family: poppins;
+  color: rgb(128, 128, 128);
+}

@@ -1,0 +1,281 @@
+.SignUpPage {
+  padding-bottom: 120px;
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: rgb(30, 29, 35);
+  position: relative;
+}
+
+.SignUpPageBack1 {
+  position: absolute;
+  width: 500px;
+  bottom: 0;
+}
+
+.SignUpPage1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  padding-inline: 2%;
+}
+
+.SignUpPage1Head {
+  width: max-content;
+  align-self: center;
+}
+
+.SignUpPage1Head1 {
+  font-size: 55px;
+  font-family: poppins;
+  font-weight: 700;
+  color: rgb(255, 194, 34);
+  align-self: flex-start;
+}
+
+.SignUpPage1Head2 {
+  font-size: 13px;
+  font-family: poppins;
+  width: 450px;
+  color: white;
+}
+
+.SignUpPage1Burger {
+  width: 600px;
+  margin-top: 70px;
+}
+
+.SignUpPage1Off {
+  width: 120px;
+  position: absolute;
+  right: 70px;
+  top: 150px;
+}
+
+.SignUpPage1Count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SignUpPage1CountMain {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 420px;
+}
+
+.SignUpPage1CountDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 22px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.406);
+}
+
+.SignUpPage1CountDiv1 {
+  font-size: 30px;
+  font-family: poppins;
+  font-weight: 700;
+}
+
+.SignUpPage1CountDiv2 {
+  font-size: 15px;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.SignUpPage2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpPage2Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  padding-block: 40px;
+  border-radius: 20px;
+  background-color: rgba(83, 83, 83, 0.142);
+}
+
+.SignUpPage2FormHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpPage2FormHead p {
+  font-size: 42px;
+  font-family: Norican, sans-serif;
+  color: white;
+}
+
+.SignUpPage2FormMain {
+  margin-top: 40px;
+}
+
+.SignUpPage2FormMain1 {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.SignUpPage2FormMain1-1 p,
+.SignUpPage2FormMain1-2 p {
+  color: rgb(128, 128, 128);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.SignUpPage2FormMain1-1 input,
+.SignUpPage2FormMain1-2 input {
+  margin-top: 5px;
+  width: 180px;
+  height: 35px;
+  outline: none;
+  border: none;
+  padding-inline: 15px;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+}
+
+.SignUpPage2FormMain1-1 input::placeholder,
+.SignUpPage2FormMain1-2 input::placeholder {
+  font-size: 14px;
+  font-family: poppins;
+  color: rgb(128, 128, 128);
+}
+
+.SignUpPage2FormMain2,
+.SignUpPage2FormMain3,
+.SignUpPage2FormMain4 {
+  margin-top: 15px;
+}
+
+.SignUpPage2FormMain5 {
+  display: flex;
+  margin-top: 35px;
+}
+
+.SignUpPage2FormMain2 p,
+.SignUpPage2FormMain3 p,
+.SignUpPage2FormMain4 p {
+  color: rgb(128, 128, 128);
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.SignUpPage2FormMain5 p {
+  color: white;
+  font-size: 13.5px;
+  font-family: poppins;
+  margin-left: 5px;
+}
+
+.SignUpPage2FormMain2 input,
+.SignUpPage2FormMain3 input,
+.SignUpPage2FormMain4 input {
+  margin-top: 5px;
+  width: 420px;
+  height: 35px;
+  outline: none;
+  border: none;
+  padding-inline: 15px;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  color: rgb(128, 128, 128);
+}
+
+.SignUpPage2FormMain2 input::placeholder,
+.SignUpPage2FormMain3 input::placeholder,
+.SignUpPage2FormMain4 input::placeholder {
+  font-size: 14px;
+  font-family: poppins;
+  color: rgb(128, 128, 128);
+}
+
+.SignUpPage2FormMain6 button {
+  margin-top: 20px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  background-color: rgb(255, 194, 34);
+  cursor: pointer;
+}
+
+.SignUpPage2FormMain6 button:hover {
+  background-color: rgb(226, 165, 10);
+}
+
+.SignUpPage2FormMain7 {
+  margin-top: 30px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 50px 1fr;
+}
+
+.SignUpPage2FormMain7-1,
+.SignUpPage2FormMain7-3 {
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-color: white;
+}
+
+.SignUpPage2FormMain7-2 {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.SignUpPage2FormMain7-2 p {
+  color: white;
+  font-size: 13.5px;
+  font-family: poppins;
+}
+
+.SignUpPage2FormMain8 {
+  margin-top: 30px;
+  display: flex;
+  width: 420px;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding-inline: 15px;
+  border-radius: 5px;
+  font-family: poppins;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+}
+
+.SignUpPage2FormMain8:hover {
+  background-color: rgba(0, 0, 0, 0.626);
+}
+
+.SignUpPage2FormMain8 i {
+  color: white;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.SignUpPage2FormMain8 p {
+  color: white;
+  font-size: 13.5px;
+  font-family: poppins;
+}

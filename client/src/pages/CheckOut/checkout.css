@@ -1,0 +1,595 @@
+.CheckingOut {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.352);
+  backdrop-filter: blur(1px);
+  justify-content: center;
+  align-items: center;
+}
+
+.showCheckingOut {
+  display: flex;
+}
+
+.closeCheckingOut {
+  display: none;
+}
+
+.checkOut {
+  z-index: 900;
+}
+
+.checkHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.checkHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.checkHeadSub {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.checkHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.checkHeadSub2 {
+  font-size: 14.5px;
+}
+
+.checkHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.checkMain {
+  margin-top: 70px;
+  padding-inline: 2%;
+}
+
+.checkCoupon {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkCoupon1 {
+  padding-inline: 2%;
+  height: 55px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(61, 156, 210);
+  border-left-width: 10px;
+  border-left-color: rgb(52, 133, 179);
+  border-left-style: solid;
+}
+
+.checkCoupon1 p {
+  font-family: poppins;
+  color: white;
+  font-size: 14.5px;
+}
+
+.checkCoupon span {
+  font-family: poppins;
+  color: white;
+  font-size: 14.5px;
+  cursor: pointer;
+}
+
+.checkCoupon span:hover {
+  color: rgb(215, 215, 215);
+}
+
+.checkCouponForm {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  transition: 2s ease;
+}
+
+.checkCouponFormOpen {
+  display: flex;
+}
+
+.checkCouponFormClose {
+  display: none;
+}
+
+.checkCouponForm1 {
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkCouponForm2 {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.checkCouponForm2 input {
+  width: 600px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding-inline: 15px;
+  border: 1px;
+  outline: none;
+  border-color: rgb(224, 224, 224);
+  border-style: solid;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkCouponForm2 input::placeholder {
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkCouponForm2 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkCouponForm2 button {
+  width: 200px;
+  height: 49px;
+  border-radius: 7px;
+  border: none;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(255, 194, 34);
+  cursor: pointer;
+}
+
+.checkCouponForm2 button:hover {
+  color: white;
+  background-color: rgb(247, 187, 36);
+}
+
+.checkReceipt {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 53% 43%;
+  justify-content: space-between;
+}
+
+.checkReceiptL {
+}
+
+.checkReceiptLHead {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.checkReceipt1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkReceipt1 p {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceipt1 span {
+  color: red;
+}
+
+.checkReceipt1 input {
+  margin-top: 6px;
+  width: 280px;
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  padding-inline: 15px;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceipt1 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkReceipt2 {
+  margin-top: 15px;
+}
+
+.checkReceipt2 p {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceipt2 input {
+  margin-top: 6px;
+  width: 610px;
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  padding-inline: 15px;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceipt2 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkReceipt3 {
+  margin-top: 15px;
+}
+
+.checkReceipt3 p {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceipt3 span {
+  color: red;
+}
+
+.checkReceipt3 select {
+  margin-top: 6px;
+  width: 100%;
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  padding-inline: 15px;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceipt3 select:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkReceipt4 {
+  margin-top: 15px;
+}
+
+.checkReceipt4 p {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceipt4 span {
+  color: red;
+}
+
+.checkReceipt4 input {
+  margin-top: 6px;
+  width: 610px;
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  padding-inline: 15px;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceipt4 input:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkReceipt5 {
+  margin-top: 50px;
+}
+
+.checkReceipt5Top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkReceipt5Top p {
+  font-family: poppins;
+  font-size: 25px;
+}
+
+.checkReceiptButtom {
+  margin-top: 20px;
+}
+
+.checkReceiptButtom p {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceiptButtom textarea {
+  margin-top: 10px;
+  width: 635px;
+  height: 85px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229);
+  padding-inline: 15px;
+  padding-block: 15px;
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceiptButtom textarea:focus {
+  border-color: rgb(255, 194, 34);
+}
+
+.checkReceiptR {
+  height: max-content;
+  padding: 30px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+}
+
+.checkReceiptRHead {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.checkReceiptRColumn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.checkReceiptRColumn p {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptRorder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(191, 186, 186);
+}
+
+.checkReceiptRorder1 {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceiptRorder1 span {
+  font-family: poppins;
+  font-size: 15px;
+}
+
+.checkReceiptRorder2 {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptR3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(229, 229, 229);
+}
+
+.checkReceiptR3 p {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptR4Main {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(229, 229, 229);
+}
+
+.checkReceiptR4 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checkReceiptR4L {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptR4R {
+  font-family: poppins;
+  font-size: 14.5px;
+  width: 200px;
+  text-align: end;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceiptR5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(229, 229, 229);
+}
+
+.checkReceiptR5L {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptR5R {
+  font-family: poppins;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(255, 194, 34);
+}
+
+.checkReceiptR6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(229, 229, 229);
+}
+
+.checkReceiptR6Head {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.checkReceiptR6HeadCoin {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkReceiptR6Head1 {
+  display: flex;
+  align-items: center;
+}
+
+.checkReceiptR6Head2 img {
+  width: 25px;
+}
+
+.checkReceiptR6Head input {
+  margin-right: 15px;
+}
+
+.checkReceiptR6Head p {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.checkReceiptR6Head span {
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(255, 194, 34);
+  cursor: pointer;
+}
+
+.checkReceiptR6Head span:hover {
+  color: rgb(223, 169, 33);
+}
+
+.checkReceiptR6Main {
+  display: flex;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+
+.checkReceiptR6MainOpen {
+  display: flex;
+}
+
+.checkReceiptR6MainClose {
+  display: none;
+}
+
+.checkReceiptR6Main p {
+  font-family: poppins;
+  width: 400px;
+  font-size: 12.5px;
+  line-height: 20px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceiptR7 {
+  padding-block: 20px;
+}
+
+.checkReceiptR7 p {
+  font-family: poppins;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgb(128, 128, 128);
+}
+
+.checkReceiptR7 span {
+  font-family: poppins;
+  font-size: 15px;
+  color: rgb(255, 194, 34);
+}
+
+.checkReceiptR8 {
+  padding-block: 20px;
+}
+
+.checkReceiptR8 button {
+  width: 100%;
+  height: 57px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  background-color: rgb(255, 194, 34);
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 15.5px;
+  cursor: pointer;
+}
+
+.checkReceiptR8 button:hover {
+  color: white;
+  background-color: rgb(247, 187, 36);
+}

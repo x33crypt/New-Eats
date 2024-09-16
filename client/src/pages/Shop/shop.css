@@ -1,0 +1,407 @@
+.shop {
+}
+
+.shopHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.shopHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.shopHeadSub {
+  display: flex;
+  align-items: center;
+  width: 95px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.shopHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.shopHeadSub2 {
+  font-size: 14.5px;
+}
+
+.shopHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.shopMain {
+  display: grid;
+  grid-template-columns: 71% 26%;
+  padding-inline: 2%;
+  margin-block: 70px;
+  justify-content: space-between;
+}
+
+.shopMainLeft {
+}
+
+.shopMainLeftHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shopMainLeftHead1 {
+  font-size: 14px;
+  font-family: poppins;
+  color: rgb(128, 128, 128);
+}
+
+.shopMainLeftHead2 {
+  display: flex;
+  align-items: center;
+  width: 270px;
+  justify-content: space-between;
+}
+
+.shopMainLeftHead2-1 {
+  display: flex;
+  width: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.shopMainLeftHead2-1l,
+.shopMainLeftHead2-1r {
+  font-size: 14px;
+  width: max-content;
+  display: flex;
+}
+
+.shopMainLeftHead2-1l :hover {
+  color: rgb(128, 128, 128);
+}
+
+.shopMainLeftHead2-1r :hover {
+  color: rgb(128, 128, 128);
+}
+
+.shopMainLeftHead2-2 {
+  position: relative;
+}
+
+.shopMainLeftHead2-2 i {
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  font-size: 12px;
+}
+
+.shopMainLeftHead2-2Sel {
+  border: none;
+  outline: none;
+  background-color: rgb(251, 247, 232);
+  padding: 20px 22px;
+  font-size: 13.5px;
+  font-family: poppins;
+  appearance: none;
+  border-radius: 5px;
+}
+
+.shopMainLeftHead2-2Sel option {
+  font-family: poppins;
+}
+
+.shopMainLeftCont {
+}
+
+.menuContent1 {
+  display: grid;
+  grid-template-columns: 265px 265px 265px;
+  margin-top: 40px;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.shopMainRight {
+}
+
+.shopMainRightCate {
+  padding-inline: 3%;
+  padding-block: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: rgb(205, 205, 205);
+}
+
+.shopMainRightCateHead {
+  margin-left: 23px;
+  margin-top: 5px;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.shopMainRightCateMain {
+  margin-top: 15px;
+  background-color: rgb(255, 248, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 5px;
+  border-radius: 15px;
+}
+
+.shopMainRightCateMain1 {
+  display: flex;
+  height: 45px;
+  width: 250px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  border-color: rgb(225, 224, 224);
+}
+
+.shopMainRightCateMain1Sub {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+}
+
+.shopMainRightCateMain1Sub:hover {
+  color: rgb(255, 194, 34);
+}
+
+.shopMainRightCateMain1Sub i {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.shopMainRightCateMain1Sub p {
+  font-family: poppins;
+  font-size: 14px;
+}
+
+.shopMainRightCateMain1-2 {
+  font-family: poppins;
+  font-size: 13px;
+  color: rgb(128, 128, 128);
+}
+
+.shopMainRightSearch {
+  padding-block: 40px;
+}
+
+.shopMainRightSearchInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 194, 34);
+  border-radius: 20px;
+}
+
+.shopMainRightSearchInput input {
+  border: none;
+  height: 22px;
+  outline: none;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.shopMainRightSearchInput input::placeholder {
+  font-family: poppins;
+  font-size: 14px;
+  color: rgb(147, 147, 147);
+}
+
+.shopMainRightSearchInput i {
+  font-size: 20px;
+}
+
+.shopMainRightFilterP {
+  display: flex;
+  flex-direction: column;
+}
+
+.shopMainRightFilterS {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.shopMainRightFilterPHead,
+.shopMainRightFilterSHead {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.shopMainRightFilterPMain {
+  margin-top: 10px;
+  padding-block: 10px;
+  border-top-width: 2px;
+  border-top-style: dotted;
+  border-color: rgb(225, 224, 224);
+}
+
+.shopMainRightFilterPMain input {
+  width: 100%;
+  height: 4px;
+  appearance: none;
+  background-color: rgb(225, 224, 224);
+  border-radius: 5px;
+}
+
+.shopmainrightfilterpmain input {
+  width: 20px;
+  height: 20px;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.shopMainRightFilterPMain p {
+  margin-top: 15px;
+  font-family: poppins;
+  font-size: 15.5px;
+  color: rgb(122, 122, 122);
+}
+
+.shopMainRightFilterPMain button {
+  padding: 3px 20px;
+  font-size: 13px;
+  font-family: poppins;
+  font-weight: 600;
+  background-color: rgb(255, 194, 34);
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.shopMainRightFilterSMain {
+  margin-top: 10px;
+  padding-block: 10px;
+  border-top-width: 2px;
+  border-top-style: dotted;
+  border-color: rgb(225, 224, 224);
+  display: flex;
+}
+
+.shopMainRightFilterSMain p {
+  padding: 7px 14px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: poppins;
+  background-color: rgb(248, 245, 240);
+  margin-right: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.shopMainRightFilterSMain p:hover {
+  background-color: rgb(255, 194, 34);
+}
+
+.searchResultRightPoster {
+  margin-top: 35px;
+  padding-inline: 3%;
+  padding-block: 10px;
+  border-radius: 12px;
+  background-color: rgb(255, 194, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchResultRightPoster1 {
+  font-family: Norican, sans-serif;
+  margin-top: 15px;
+  font-size: 38px;
+  font-weight: 500;
+  color: white;
+}
+
+.searchResultRightPoster2 {
+  font-family: poppins;
+  color: rgb(0, 161, 73);
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.searchResultRightPoster3 {
+  font-family: poppins;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.searchResultRightPoster4 {
+  font-family: poppins;
+  color: red;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.searchResultRightPoster5 img {
+  width: 270px;
+}
+
+@media (max-width: 600px) {
+  .shopMain {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .shopMainLeft {
+    width: 100%;
+    background-color: lightpink;
+  }
+
+  .shopMainLeftHead {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightcoral;
+  }
+
+  .shopMainLeftHead1 {
+    display: none;
+  }
+
+  .shopMainLeftHead2 {
+    display: flex;
+    background-color: lightblue;
+    width: max-content;
+  }
+
+  .shopMainLeftHead2-1 {
+    display: none;
+  }
+
+  #shopmaindisplay {
+    display: none;
+  }
+
+  #shopmaindfilter {
+    display: flex;
+  }
+
+  .shopMainRight {
+    display: none;
+  }
+}

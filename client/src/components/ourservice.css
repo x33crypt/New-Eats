@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ourService {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourServiceHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourServiceHeadTitle1 {
+  font-size: 42px;
+  font-family: Norican, sans-serif;
+  color: rgb(255, 194, 34);
+}
+
+.ourServiceHeadTitle2 {
+  font-size: 38px;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.ourServiceMain {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-inline: 2%;
+}
+
+.ourService1,
+.ourService2,
+.ourService3,
+.ourService4 {
+  width: 275px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: rgb(227, 227, 227);
+}
+
+.ourService1-2,
+.ourService2-2,
+.ourService3-2,
+.ourService4-2 {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ourService1 i {
+  font-size: 35px;
+  padding: 27px 25px;
+  background-color: rgb(249, 136, 124);
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+
+.ourService2 i {
+  font-size: 37px;
+  padding: 27px 30px;
+  background-color: rgb(96, 167, 197);
+  border-radius: 50%;
+  color: white;
+}
+
+.ourService3 i {
+  font-size: 35px;
+  padding: 27px 25px;
+  background-color: rgb(90, 131, 133);
+  border-radius: 50%;
+  color: white;
+}
+
+.ourService4 i {
+  font-size: 35px;
+  padding: 27px 25px;
+  background-color: rgb(233, 182, 48);
+  border-radius: 50%;
+  color: white;
+}
+
+.ourService1Txt1,
+.ourService2Txt1,
+.ourService3Txt1,
+.ourService4Txt1 {
+  margin-top: 15px;
+  font-size: 18.5px;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.ourService1Txt2,
+.ourService2Txt2,
+.ourService3Txt2,
+.ourService4Txt2 {
+  margin-top: 15px;
+  font-size: 15px;
+  width: 150px;
+  font-family: poppins;
+  text-align: center;
+  color: rgb(128, 128, 128);
+}
+
+.ourServiceButtom {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 240px;
+}
+
+.ourServiceButtom2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 240px;
+}
+
+.ourServiceButtom1 {
+  overflow: hidden;
+}
+
+.ourServiceButtom1 img {
+  width: 100%;
+  transition: ease 1s;
+}
+
+.ourServiceButtom1 img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .ourService {
+    margin-top: 50px;
+  }
+
+  .ourServiceHeadTitle1 {
+    font-size: 28px;
+    font-family: Norican, sans-serif;
+    color: rgb(255, 194, 34);
+  }
+
+  .ourServiceHeadTitle2 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: poppins;
+  }
+
+  .ourServiceMain {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 4%;
+    row-gap: 30px;
+  }
+
+  .ourService1,
+  .ourService2,
+  .ourService3,
+  .ourService4 {
+    width: 100%;
+    height: 300px;
+  }
+
+  .ourService1Txt2,
+  .ourService2Txt2,
+  .ourService3Txt2,
+  .ourService4Txt2 {
+    margin-top: 15px;
+    font-size: 15px;
+    width: 250px;
+    font-family: poppins;
+    text-align: center;
+    color: rgb(128, 128, 128);
+  }
+
+  .ourServiceButtom {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 320px;
+  }
+
+  .ourServiceButtom2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 320px;
+  }
+
+  .ourServiceButtom1 img {
+    width: 100%;
+    transition: ease 1s;
+  }
+}

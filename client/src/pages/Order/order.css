@@ -1,0 +1,242 @@
+.orderHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.orderHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.orderHeadSub {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.orderHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.orderHeadSub2 {
+  font-size: 14.5px;
+}
+
+.orderHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.orderMain {
+  padding-inline: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.orderMainHead {
+  margin-block: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.orderMainHead1 {
+  font-family: poppins;
+  font-weight: 700;
+}
+
+.orderMainHead2 {
+  display: flex;
+}
+
+.orderMainHead2 input {
+  padding-inline: 15px;
+  height: 30px;
+  outline: none;
+  border-color: rgb(237, 237, 237);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  font-family: poppins;
+  font-size: 13px;
+  color: rgb(128, 128, 128);
+  margin-right: 10px;
+}
+
+.orderMainHead2 button {
+  padding: 3px 20px;
+  font-size: 13px;
+  font-family: poppins;
+  font-weight: 600;
+  background-color: rgb(255, 194, 34);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.orderMainColumn {
+  display: flex;
+  background-color: rgb(237, 237, 237);
+}
+
+.orderMainColumn p {
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 15.5px;
+}
+
+.orderMainColumn1 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn2 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn3 {
+  width: 170px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn4 {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn5 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn8 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn6 {
+  width: 180px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainColumn7 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.orderMainInputs {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.orderMainInputs p {
+  font-family: poppins;
+  font-size: 14.5px;
+  color: rgb(128, 128, 128);
+}
+
+.orderMainInputs1 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs2 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs3 {
+  width: 170px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs4 {
+  width: 150px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs5 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs6 {
+  width: 180px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainColumn8 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}
+
+.orderMainInputs7 {
+  width: 140px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(215, 215, 215);
+}

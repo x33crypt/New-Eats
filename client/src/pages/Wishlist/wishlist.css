@@ -1,0 +1,57 @@
+.wishlist {
+}
+
+.wishlistHead {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 245, 240);
+}
+
+.wishlistHead1 {
+  font-family: poppins;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.wishlistHeadSub {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.wishlistHeadSub1 {
+  font-size: 14.5px;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+.wishlistHeadSub2 {
+  font-size: 14.5px;
+}
+
+.wishlistHeadSub i {
+  font-size: 11px;
+  color: rgb(131, 131, 131);
+}
+
+.WishlistMain {
+  padding-block: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WishlistMain img {
+  width: 200px;
+}
+
+.WishlistMain p {
+  font-family: poppins;
+  font-size: 15px;
+  margin-bottom: 50px;
+}

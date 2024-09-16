@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topBodyDiv {
+  padding-inline: 2%;
+  /* display: flex; */
+  /* width: 100%; */
+  height: 900px;
+  background-color: rgb(112, 71, 43);
+  overflow: hidden;
+  /* box-sizing: border-box; */
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.mainTopBody {
+}
+
+.mainTopBodyText {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  position: relative;
+}
+
+.textAreaImg {
+  position: absolute;
+  bottom: 70px;
+  left: -30px;
+  width: 130px;
+}
+
+.mainTopBodyTextTop1 {
+  font-size: 45px;
+  color: rgb(255, 194, 34);
+  font-weight: 500;
+  font-family: Norican, sans-serif;
+  animation: textSlider1;
+  animation-duration: 0.8s;
+  animation-timing-function: linear;
+}
+
+@keyframes textSlider1 {
+  0% {
+    transform: translateX(-500px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.mainTopBodyTextTop2 {
+  font-size: 75px;
+  font-weight: 700;
+  color: white;
+  line-height: 85px;
+  font-family: poppins;
+  animation: textSlider2;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes textSlider2 {
+  0% {
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.mainTopBodyTextTop3 {
+  color: white;
+  font-size: 15px;
+  width: 360px;
+  margin-top: 10px;
+  font-family: poppins;
+  font-weight: 600;
+  animation: textSlider3;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes textSlider3 {
+  0% {
+    transform: translateX(-1600px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.mainTopBodyTextMid {
+  margin-top: 45px;
+  animation: textSlider3;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+.mainTopBodyTextMid button {
+  padding: 19px 48px;
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 194, 34);
+}
+
+.mainTopBodyTextMid button:hover {
+  background-color: white;
+}
+
+.mainTopBodyTextBut {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  animation: textSlider3;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+}
+
+.mainTopBodyTextBut P {
+  font-family: poppins;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.mainTopBodyTextBut span {
+  font-family: poppins;
+  color: rgb(255, 194, 34);
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.mainTopBodyImage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 80px;
+  position: relative;
+}
+
+.mainTopBodyImage1 {
+  display: flex;
+  width: 750px;
+  z-index: 2;
+  margin-bottom: 0px;
+  animation: textSlider4;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+}
+
+@keyframes textSlider4 {
+  0% {
+    transform: translateX(1000px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.mainTopBodyImage2 {
+  width: 1000px;
+  z-index: 1;
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.mainTopBodyImage3 {
+  position: absolute;
+  right: 100px;
+  bottom: 90px;
+  width: 200px;
+  z-index: 2;
+  animation: leafRotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 7s;
+  animation-duration: 4s;
+}
+
+@keyframes leafRotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.mainTopBodyImage4 {
+  position: absolute;
+  width: 130px;
+  right: 500px;
+  top: 250px;
+  animation: textSlider4;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+}
+
+.mainTopBodyImage5 {
+  position: absolute;
+  width: 200px;
+  left: 300px;
+  bottom: 0;
+}
+
+.mainTopBodyImage6 {
+  position: absolute;
+  width: 230px;
+  right: 0px;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  .topBodyDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainTopBodyText {
+    display: flex;
+    margin-top: 80px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainTopBodyTextTop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainTopBodyTextTop1 {
+    font-size: 30px;
+  }
+
+  .mainTopBodyTextTop2 {
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 55px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .mainTopBodyTextTop3 {
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 380px;
+    text-align: center;
+  }
+
+  .mainTopBodyTextBut {
+    margin-top: 15px;
+  }
+
+  .mainTopBodyTextBut p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 380px;
+    text-align: center;
+  }
+
+  .mainTopBodyTextMid {
+    margin-top: 25px;
+  }
+
+  .mainTopBodyTextMid button {
+    padding: 18px 35px;
+    font-size: 12.5px;
+  }
+
+  .textAreaImg {
+    display: none;
+  }
+
+  .mainTopBodyImage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 40px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainTopBodyImage1 {
+    display: flex;
+    width: 330px;
+    z-index: 2;
+    margin-bottom: 0px;
+  }
+
+  .mainTopBodyImage3 {
+    position: absolute;
+    right: 120px;
+    bottom: 20px;
+    width: 90px;
+    z-index: 2;
+    animation: leafRotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+    animation-duration: 4s;
+  }
+
+  .mainTopBodyImage4 {
+    position: absolute;
+    width: 60px;
+    left: 80px;
+    top: 20px;
+    animation: textSlider4;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+  }
+}

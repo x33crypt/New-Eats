@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ourMenu {
+  background-color: rgb(117, 59, 48);
+  padding-top: 90px;
+  padding-bottom: 100px;
+  padding-inline: 2%;
+  position: relative;
+}
+
+.menuImg1 {
+  position: absolute;
+  top: 130px;
+  left: -70px;
+  z-index: 1;
+}
+
+.menuImg2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.ourMenuHead {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.ourMenuHead1 {
+  font-size: 42px;
+  font-family: Norican, sans-serif;
+  color: rgb(255, 194, 34);
+}
+
+.ourMenuHead2 {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.ourMenuMain {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 590px 590px;
+  justify-content: space-between;
+  row-gap: 40px;
+  z-index: 10;
+}
+
+.ourMenuMain1 {
+  padding-inline: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.ourMenuMain1Head {
+}
+
+.ourMenuMain1Head p {
+  font-size: 32px;
+  font-family: Norican, sans-serif;
+  color: black;
+}
+
+.ourMenuMain1All {
+  margin-top: 20px;
+}
+
+.ourMenuMain1Menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ourMenuMain1MenuImg {
+  margin-right: 20px;
+}
+
+.ourMenuMain1MenuInfo {
+  width: 100%;
+}
+
+.ourMenuMain1MenuInfoTitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ourMenuMain1MenuInfoTitle1 {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.ourMenuMain1MenuInfoLine {
+  margin-top: 6px;
+  border-bottom: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: black;
+}
+
+.ourMenuMain1MenuInfoTitle2 {
+  font-size: 19.5px;
+  font-weight: 700;
+  font-family: poppins;
+  color: rgb(255, 194, 34);
+}
+
+.ourMenuMain1MenuInfoCombo {
+  margin-top: 6px;
+}
+
+.ourMenuMain1MenuInfoCombo p {
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+  font-family: poppins;
+}
+
+@media (max-width: 600px) {
+  .ourMenu {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    padding-inline: 4%;
+  }
+
+  .ourMenuHead1 {
+    font-size: 28px;
+  }
+
+  .ourMenuHead2 {
+    font-size: 32px;
+  }
+
+  .ourMenuMain {
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 590px;
+    justify-content: space-between;
+    row-gap: 25px;
+    z-index: 10;
+  }
+
+  .ourMenuMain1 {
+    padding-inline: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border-radius: 30px;
+    z-index: 10;
+    width: 350px;
+  }
+
+  .ourMenuMain1Head p {
+    font-size: 25px;
+    font-family: Norican, sans-serif;
+    color: black;
+  }
+
+  .ourMenuMain1All {
+    margin-top: 10px;
+  }
+
+  .ourMenuMain1Menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .ourMenuMain1MenuImg {
+    margin-right: 20px;
+  }
+
+  .ourMenuMain1MenuInfo {
+    width: 100%;
+  }
+
+  .ourMenuMain1MenuInfoTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .ourMenuMain1MenuInfoTitle1 {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: poppins;
+  }
+
+  .ourMenuMain1MenuInfoLine {
+    margin-top: 6px;
+    border-bottom: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+  }
+
+  .ourMenuMain1MenuInfoTitle2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: poppins;
+    color: rgb(255, 194, 34);
+  }
+
+  .ourMenuMain1MenuInfoCombo {
+    margin-top: 6px;
+  }
+
+  .ourMenuMain1MenuInfoCombo p {
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+    font-family: poppins;
+  }
+}

@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .navBar {
+  }
+
+  .buttomNav {
+    display: none;
+  }
+
+  .leftNav {
+    display: none;
+  }
+
+  .midNav1 {
+    display: none;
+  }
+
+  .midNav2 {
+    display: none;
+  }
+
+  .rightNav {
+    display: none;
+  }
+
+  .navBarQ {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding-inline: 2%;
+  }
+
+  .navBarQ1 i {
+    font-size: 30px;
+  }
+
+  .navBarQ2 img {
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .navBarQ3 i {
+    font-size: 30px;
+  }
+}
